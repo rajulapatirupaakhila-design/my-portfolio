@@ -160,18 +160,20 @@ header {
 
     margin-bottom: 45px;
 }
-#projects {
+
+#projects.section {
+    max-width: 1150px;
     width: 100%;
-    display: block;
+    margin: 0 auto;
+    padding: 90px 30px;
 }
 
 #projects .section-title {
-    display: block;
-    width: 100%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 0 auto 45px;
 }
+
 
 /* =========================================
    ABOUT
