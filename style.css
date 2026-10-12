@@ -16,8 +16,9 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background: #f8f7ff;
-    color: #222;
+    background: linear-gradient(135deg, #071b33, #123e63, #1b5b82);
+    background-attachment: fixed;
+    color: #f4f8ff;
 }
 
 
@@ -30,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
@@ -48,7 +49,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #6c63ff;
+    color: #8ed8ff;
 }
 
 .nav-links {
@@ -60,13 +61,13 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: 600;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #6c63ff;
+    color: #8ed8ff;
 }
 
 
@@ -84,11 +85,7 @@ header {
 
     text-align: center;
 
-    background: linear-gradient(
-        135deg,
-        #f1efff,
-        #ffffff
-    );
+    background: linear-gradient(135deg, #071b33, #123e63, #1b5b82);
 }
 
 .hero-content {
@@ -97,25 +94,25 @@ header {
 
 .hero-small-title {
     font-size: 20px;
-    color: #666;
+    color: #d5e6f7;
     margin-bottom: 10px;
 }
 
 .hero h1 {
     font-size: 55px;
-    color: #6c63ff;
+    color: #8ed8ff;
     margin-bottom: 15px;
 }
 
 .hero h2 {
     font-size: 25px;
     margin-bottom: 18px;
-    color: #333;
+    color: #ffffff;
 }
 
 .hero p {
     font-size: 19px;
-    color: #555;
+    color: #d5e6f7;
 }
 
 .hero-button {
@@ -124,8 +121,8 @@ header {
     margin-top: 30px;
     padding: 13px 25px;
 
-    background: #6c63ff;
-    color: white;
+    background: #60c7ff;
+    color: #071b33;
 
     text-decoration: none;
     border-radius: 30px;
@@ -137,7 +134,7 @@ header {
 
 .hero-button:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(108, 99, 255, 0.25);
+    box-shadow: 0 8px 20px rgba(96, 199, 255, 0.25);
 }
 
 
@@ -156,22 +153,9 @@ header {
     text-align: center;
 
     font-size: 34px;
-    color: #6c63ff;
+    color: #8ed8ff;
 
     margin-bottom: 45px;
-}
-
-#projects.section {
-    max-width: 1150px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 90px 30px;
-}
-
-#projects .section-title {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto 45px;
 }
 
 
@@ -185,7 +169,7 @@ header {
 }
 
 .about-text {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
@@ -196,7 +180,7 @@ header {
 
 .about-text p {
     margin-bottom: 18px;
-    color: #555;
+    color: #d5e6f7;
     font-size: 17px;
 }
 
@@ -211,9 +195,9 @@ header {
 
 .education-card {
     max-width: 850px;
-    margin: 0 auto 25px;
+    margin: auto;
 
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
@@ -232,12 +216,12 @@ header {
 
 .education-card h3 {
     font-size: 25px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 12px;
 }
 
 .education-card p {
-    color: #666;
+    color: #d5e6f7;
     margin-bottom: 8px;
 }
 
@@ -255,7 +239,7 @@ header {
 }
 
 .skill-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 25px;
 
@@ -273,12 +257,12 @@ header {
 }
 
 .skill-card h3 {
-    color: #6c63ff;
+    color: #8ed8ff;
     margin-bottom: 15px;
 }
 
 .skill-card p {
-    color: #555;
+    color: #d5e6f7;
     margin: 5px 0;
 }
 
@@ -296,7 +280,7 @@ header {
 }
 
 .project-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
@@ -324,7 +308,7 @@ header {
 }
 
 .project-card p {
-    color: #555;
+    color: #d5e6f7;
     margin-bottom: 20px;
 }
 
@@ -344,9 +328,9 @@ header {
 }
 
 .technologies span {
-    background: #eeeaff;
+    background: rgba(96, 199, 255, 0.18);
 
-    color: #5a52df;
+    color: #a3e2ff;
 
     padding: 6px 12px;
 
@@ -365,9 +349,9 @@ header {
 
     padding: 10px 20px;
 
-    background: #6c63ff;
+    background: #60c7ff;
 
-    color: white;
+    color: #071b33;
 
     text-decoration: none;
 
@@ -400,7 +384,7 @@ header {
 }
 
 .profile-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 35px;
 
@@ -428,7 +412,7 @@ header {
 }
 
 .profile-card p {
-    color: #555;
+    color: #d5e6f7;
     margin-bottom: 20px;
 }
 
@@ -437,9 +421,9 @@ header {
 
     padding: 10px 20px;
 
-    background: #6c63ff;
+    background: #60c7ff;
 
-    color: white;
+    color: #071b33;
 
     text-decoration: none;
 
@@ -472,7 +456,7 @@ header {
 }
 
 .certificate-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
@@ -490,13 +474,13 @@ header {
 }
 
 .certificate-card h3 {
-    color: #6c63ff;
+    color: #8ed8ff;
 
     margin-bottom: 12px;
 }
 
 .certificate-card p {
-    color: #666;
+    color: #d5e6f7;
 }
 
 
@@ -517,7 +501,7 @@ header {
 }
 
 .interest-card {
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 22px;
 
@@ -545,7 +529,7 @@ header {
     max-width: 700px;
     margin: auto;
 
-    background: white;
+    background: rgba(255, 255, 255, 0.08);
 
     padding: 30px;
 
@@ -559,7 +543,7 @@ header {
 .contact-container p {
     margin-bottom: 18px;
 
-    color: #555;
+    color: #d5e6f7;
 
     font-size: 17px;
 }
@@ -569,7 +553,7 @@ header {
 }
 
 .contact-container a {
-    color: #6c63ff;
+    color: #8ed8ff;
 
     text-decoration: none;
 
@@ -586,9 +570,9 @@ header {
 ========================================= */
 
 footer {
-    background: #222;
+    background: #061426;
 
-    color: white;
+    color: #071b33;
 
     text-align: center;
 
@@ -702,3 +686,93 @@ footer p {
 
 }
 
+
+
+/* =========================================
+   DARK SKY BLUE THEME — FINISHING TOUCHES
+========================================= */
+
+header {
+    background: rgba(7, 27, 51, 0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(173, 216, 255, 0.15);
+}
+
+.hero {
+    background: linear-gradient(135deg, #071b33, #123e63, #1b5b82);
+}
+
+.hero-small-title,
+.hero h2,
+.hero p {
+    color: #d5e6f7;
+}
+
+.section-title {
+    color: #8ed8ff;
+}
+
+.about-text,
+.education-card,
+.skill-card,
+.project-card,
+.profile-card,
+.certificate-card,
+.interest-card,
+.contact-container {
+    color: #f4f8ff;
+    border: 1px solid rgba(173, 216, 255, 0.18);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.about-text p,
+.education-card p,
+.skill-card p,
+.project-card p,
+.profile-card p,
+.certificate-card p,
+.contact-container p {
+    color: #d5e6f7;
+}
+
+.education-card h3,
+.project-card h3,
+.profile-card h3,
+.certificate-card h3 {
+    color: #ffffff;
+}
+
+.nav-links a:hover,
+.contact-container a:hover {
+    color: #8ed8ff;
+}
+
+.project-button,
+.profile-button {
+    background: #60c7ff;
+    color: #071b33;
+}
+
+.project-button:hover,
+.profile-button:hover {
+    background: #a3e2ff;
+}
+
+footer {
+    background: #061426;
+    color: #d5e6f7;
+}
+
+/* Keep section headings centered, including Projects */
+.section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Accessibility: visible keyboard focus */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #a3e2ff;
+    outline-offset: 3px;
+}
