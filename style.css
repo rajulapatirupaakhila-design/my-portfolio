@@ -160,7 +160,18 @@ header {
 
     margin-bottom: 45px;
 }
+#projects {
+    width: 100%;
+    display: block;
+}
 
+#projects .section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* =========================================
    ABOUT
