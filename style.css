@@ -198,7 +198,7 @@ header {
 
 .education-card {
     max-width: 850px;
-    margin: auto;
+    margin: 0 auto 25px;
 
     background: white;
 
